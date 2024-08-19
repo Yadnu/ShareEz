@@ -1,2 +1,6 @@
-const express = require('express')
-export const userRouter = express()
+const express = require('express');
+
+const router =express.router();
+export const userRouter = express();
+
+module.exports = router;
